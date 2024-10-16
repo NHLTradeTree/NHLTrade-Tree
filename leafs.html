@@ -4,100 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toronto Maple Leafs</title>
-    <body style="background-color: #00205b;">
-    <link rel="stylesheet" href="css/styles.css"> <!-- Link to your CSS file if you have one -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #000000;
-            color: #333;
+            background-color: #00205B; /* Leafs Blue */
+            color: white; /* Text color */
         }
-        h1, h2 {
-            color: #005b96;
+        header img {
+            width: 150px; /* Adjust the logo size */
         }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-        }
-        .trade-tree ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        .trade-tree li {
-            margin-left: 20px;
+        a {
+            color: white; /* Ensure link is visible on the blue background */
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>Toronto Maple Leafs Roster</h1>
-        <p>This page lists the current roster of the Toronto Maple Leafs and the trade trees that led to acquiring some players.</p>
-        
-        <h2>Roster</h2>
+        <p><a href="index.html">Back to Home</a></p> <!-- Link back to the home page -->
+        <img src="images/logos/leafs-logo.jfif" alt="Toronto Maple Leafs Logo">
+    </header>
+    
+    <section id="roster">
+        <h2>Current Roster</h2>
+        <h3>Forwards</h3>
         <ul>
-            <li>Auston Matthews - Drafted (2016, 1st overall)</li>
-            <li>Mitch Marner - Drafted (2015, 4th overall)</li>
-            <li>William Nylander - Drafted (2014, 8th overall)</li>
-            <li>John Tavares - Free Agent (2018)</li>
-            <li>Jake McCabe - Trade (2023)</li>
-            <li>Max Domi - Trade (2023)</li>
-            <li>Chris Tanev - Trade (2023)</li>
-            <li>Oliver Ekman-Larsson - Trade (2023)</li>
-            <li>Conor Timmins - Trade (2022)</li>
+            <li>Auston Matthews</li>
+            <li>Mitch Marner</li>
+            <li>William Nylander</li>
+            <li>John Tavares</li>
+            <li>Max Domi</li>
+            <li>Tyler Bertuzzi</li>
+            <li>Calle Järnkrok</li>
+            <li>David Kämpf</li>
+            <li>Ryan Reaves</li>
+            <li>Noah Gregor</li>
+            <li>Matthew Knies</li>
         </ul>
 
-        <h2>Trade Trees</h2>
-        <div class="trade-tree">
-            <h3>Jake McCabe</h3>
-            <ul>
-                <li>Acquired from Chicago in 2023
-                    <ul>
-                        <li>Traded for Joey Anderson, Pavel Gogolev, 2025 1st-round pick (conditional), 2026 2nd-round pick</li>
-                        <li>Joey Anderson was acquired from NJ in 2020 for Andreas Johnsson</li>
-                        <li>Andreas Johnsson was drafted by Toronto in 2013 (7th round, 202nd overall)</li>
-                    </ul>
-                </li>
-            </ul>
+        <h3>Defensemen</h3>
+        <ul>
+            <li>Morgan Rielly</li>
+            <li>T.J. Brodie</li>
+            <li>John Klingberg</li>
+            <li>Mark Giordano</li>
+            <li>Jake McCabe</li>
+            <li>Timothy Liljegren</li>
+        </ul>
 
-            <h3>Max Domi</h3>
-            <ul>
-                <li>Acquired from Chicago in 2023
-                    <ul>
-                        <li>Traded for 2025 4th-round pick and prospect Alex Steeves</li>
-                    </ul>
-                </li>
-            </ul>
+        <h3>Goalies</h3>
+        <ul>
+            <li>Ilya Samsonov</li>
+            <li>Joseph Woll</li>
+        </ul>
+    </section>
 
-            <h3>Chris Tanev</h3>
-            <ul>
-                <li>Acquired from Calgary in 2023
-                    <ul>
-                        <li>Traded for 2024 3rd-round pick and 2025 5th-round pick</li>
-                    </ul>
-                </li>
-            </ul>
+    <section id="trades">
+        <h2>Trade History</h2>
 
-            <h3>Oliver Ekman-Larsson</h3>
-            <ul>
-                <li>Acquired from Vancouver in 2023
-                    <ul>
-                        <li>Traded for 2024 2nd-round pick and 2025 4th-round pick</li>
-                    </ul>
-                </li>
-            </ul>
+        <h3>Jake McCabe</h3>
+        <p>Acquired from the Chicago Blackhawks along with Sam Lafferty in exchange for Joey Anderson, Pavel Gogolev, a conditional 2025 1st-round pick, and a 2026 2nd-round pick.</p>
+        <ul>
+            <li><strong>Joey Anderson</strong>: Acquired in a 2020 trade with the New Jersey Devils for Andreas Johnsson.</li>
+            <li><strong>Andreas Johnsson</strong>: Drafted by the Maple Leafs in the 7th round of the 2013 NHL Draft (202nd overall).</li>
+        </ul>
 
-            <h3>Conor Timmins</h3>
-            <ul>
-                <li>Acquired from Arizona in 2022
-                    <ul>
-                        <li>Traded for Curtis Douglas (AHL forward)</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+        <h3>T.J. Brodie</h3>
+        <p>Signed as a free agent in 2020 after leaving the Calgary Flames.</p>
 
-        <!-- Add navigation link -->
-        <p><a href="index.html">Back to Home</a></p>
-    </div>
+        <h3>John Klingberg</h3>
+        <p>Signed as a free agent in 2023 after leaving the Minnesota Wild.</p>
+
+        <h3>Ryan O'Reilly (Former Player)</h3>
+        <p>Acquired in 2023 from the St. Louis Blues in a 3-team deal involving the Minnesota Wild. Toronto gave up Mikhail Abramov, Adam Gaudette, and several draft picks (2023 1st, 2024 2nd, and 2023 3rd).</p>
+        <ul>
+            <li><strong>Mikhail Abramov</strong>: Drafted by the Leafs in the 4th round of the 2019 NHL Draft (115th overall).</li>
+            <li><strong>Adam Gaudette</strong>: Acquired from Ottawa in 2022, after being claimed off waivers by the Leafs.</li>
+        </ul>
+
+        <h3>John Tavares</h3>
+        <p>Signed as a free agent in 2018 after leaving the New York Islanders.</p>
+
+        <h3>Ryan Reaves</h3>
+        <p>Signed as a free agent in 2023 after playing for the Minnesota Wild.</p>
+
+        <h3>Max Domi</h3>
+        <p>Signed as a free agent in 2023 after playing for the Dallas Stars.</p>
+
+        <!-- More players and trade history can be added here -->
+    </section>
 </body>
 </html>
